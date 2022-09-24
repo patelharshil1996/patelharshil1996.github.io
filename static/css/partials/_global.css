@@ -1,0 +1,47 @@
+
+
+.button{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    padding: .375rem .75rem;
+    font-size: 3rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background: transparent;
+    background-clip: padding-box;
+    border: 2px solid #64ffda;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-top: 55px;
+    transition: background.6s ease;
+    box-shadow: white;
+}
+
+
+
+.btn:hover{
+    background: transparent;
+    background-clip: padding-box;
+    color: black;
+}
+
+
+
+
+
+

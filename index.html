@@ -1,0 +1,297 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshil</title>
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/all.min.css' %}">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+</head>
+<body>
+<main class="site-main">
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="navbar-brand">
+          <a href="#"><img src="../static/img/logo 2.png"></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="resume_button">
+              <a href="static/pdf/Harshil-CV.pdf" class"button"> Resume </a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </divn>
+  </section>
+
+   <section id="header_area">
+     <div class="main-menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-logo" href="#site-banner"><img src="../static/img/logo 2.png" alt="logo" class="logo"></a>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <div class="resume_buttons">
+              <a href="static/pdf/Harshil-CV.pdf" class"button"> Resume </a>
+            </div>
+          </ul>
+        </div>
+      </nav>
+     </div>
+    </section>
+   
+    <section id="site-banner">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-15 col-md-20">
+             <h3 class="title">Hi, my name is </h3>
+             <h1 class="titile-text"> Harshil Patel </h1>
+             <h4 class="big-heading">Certified Python and AWS Cloud Practitioner</h4>
+             <h4 class="title-text "> Self Taught Developer </h4>
+             <div class="contact-me text-uppercase">
+                <a class="email-link" href="mailto:patelharshil702@gmail.com">Contact Me</a>         
+             </div>
+             <div class ="icons">
+              <a href="https://www.instagram.com/harshiill555/">  
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/harshilpatel001/">  
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/patelharshil1996/">  
+                <i class="fa-brands fa-github"></i>
+              </a>
+              
+             </div> 
+           </div>
+         </div>  
+       </div>
+    </section>
+     
+     
+   
+  <!----- About us area ------>
+     <section id="about">
+       <h2 class="heading">About Me</h2>
+       <div class="inner">
+         <div class="about-text">
+           <div>
+            <p>Hello! I'm Harshil Patel, Self-Taught Certified Developer based in London, UK.</p>
+            <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences. In my free time I work on developing and maintaining my own personal projects, such as my blog or a few side projects I have listed below.</p>
+            <p>i have done my master of project management from
+              <a href="https://www.bpp.com/"> BPP University. </a>
+              currently i'm working in 
+              <a href="https://entaingroup.com/"> Entain Group. </a>
+            
+              <p>i have achieved certificate in Python from
+                <a href="https://www.credly.com/badges/3f425d6f-1ff2-406a-a4f1-559170055c0a"> Python Institute </a>
+                and Cloud Practitioner Certificate from
+                <a href="https://www.credly.com/badges/09644c00-7c7b-43f6-82a8-70f0f036648d?source=linked_in_profile"> AWS. </a>
+    
+            </p>
+            <p>Here are a few technologies I've been working with recently:</p>
+           </div>
+           <ui class="skills-list">
+            <li class="skills"> AWS </li>
+            <li class="skills"> Python </li>
+            <li class="skills"> CSS </li>
+            <li class="skills"> HTML </li>
+            <li class="skills"> Django </li>
+            <li class="skills"> Git </li>
+            <li class="skills"> Github </li>
+          </ui>
+         </div>
+         <div class="about-pic">
+           <img src="../static/img/Graduation.jpeg" alt="pic" class="my-pic">
+         </div>
+       </div>
+     </section>
+    <!-----End About us area ------>
+    <!-----Experience area ------>
+    <section id="experience">
+     <h2 class="heading">Where I have worked 
+     <div class="experiences_container container grid">
+      <div class="experiences_card">
+        <h3 class="experiences_title"> Entain Group - UK</h3>
+        <span class="experiences_button">
+          Roles & Responsibilities <i class="fa-solid fa-arrow-right"></i>
+        </span>
+        
+        <div class="experiences_model">
+          <div class="experiences_model-content">
+            <i class="fa-solid fa-xmark experiences_model-close"></i>
+            <h3 class="experiences_model-title"> Customer Service Manager      2022 - Present </h3>
+            <p class="experiences_model-description">
+              <p class="exp">Ensure the highest level of customer experience and satisfaction by promptly answering customer’s questions and concerns and providing solutions to problems may raise.</p>
+              <p class="exp">Define and communicate job expectations to other employees and ensure jobs are completed to company standard.</p> 
+              <p class="exp">Enforce Company policies and procedures at all times.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="experiences_card">
+        <h3 class="experiences_title">Sainsbury's - UK</h3>
+        <span class="experiences_button">
+          Roles & Responsibilities <i class="fa-solid fa-arrow-right"></i>
+        </span>
+
+        <div class="experiences_model">
+          <div class="experiences_model-content">
+            <i class="fa-solid fa-xmark experiences_model-close"></i>
+            <h3 class="experiences_model-title"> Management Trainee      2020 - 2022 </h3>
+            <p class="experiences_model-description">
+              <p class="exp"> Completing all assigned tasks and assisting with day-to-day operations</p>
+              <p class="exp"> Participating in meetings, workshops, and other learning opportunities.</p> 
+              <p class="exp"> Provide online shopping training to new employee to fully equipped them with required skills and
+                techniques in order to successfully secure permanent position in online department.</p>
+              <p class="exp"> Set targets for new employee and help them achieve the target.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="experiences_card">
+        <h3 class="experiences_title">DEC Pvt.Ltd. - India</h3>
+        <span class="experiences_button">
+          Roles & Responsibilities <i class="fa-solid fa-arrow-right"></i>
+        </span>
+
+        <div class="experiences_model">
+          <div class="experiences_model-content">
+            <i class="fa-solid fa-xmark experiences_model-close"></i>
+            <h3 class="experiences_model-title"> Project Coordinator     2017 - 2019 </h3>
+            <p class="experiences_model-description">
+              <p class="exp">  I have worked as a Project Coordinator for a company in India where I used to manage the team
+                of 45members.</p>
+              <p class="exp">  Providing detailed updates to project managers onsite and offsite</p> 
+              <p class="exp">   Planning meetings and organizing project logistics.</p>
+              <p class="exp">    Performing billing and bookkeeping tasks</p> 
+          
+              </p>
+          </div>
+        </div>
+
+      </div>
+     </div>
+     </h2>
+    </section>
+ <!-----Experience area End------>
+  <!-----Projects area Start------>
+  <section id="projects">
+      <h2 class="heading">Projects I've Built</h2>
+      <ul class="styled_projects container container grid">
+        <li class="projects_box">
+          <div class="projects-content">
+            <div>
+              <p class="projects-overline">Recent Project</p>
+              <h3 class="projects-title"><a href="https://github.com/patelharshil1996/portfolio">Portfolio Website</a></h3>
+              <div class="projects-description">
+                <p>I've made this website using python languages and tools which I have learnt while becoming a self-taught developer.</p>
+                <p>For Back-end development i am using Python and Javascript. </p>
+                <p>I am also using Bootstrap to make it responsive, for fonts, icons and logo I am using HTML and CSS.</p>
+                <p>For Web-Framework that enables rapid development of secure and maintainable website I am using Django.</p>
+              </div>
+              <ul class="projects-skills">
+                <li>VS Code</li>
+                <li>Bootstrap</li>
+                <li>Django</li>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="projects-image">
+            <a href="" target=""></a>
+            <div class="gatasby-image-wrapper">
+              <div class="color-overlay" style="max-width: 7px; display: block;">
+                <img src="../static/img/Portfolio.png" alt="pic" class="portfolio-pic">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="projects_box tic-tac-toe">
+          <div class="game-content">
+            <div>
+              <p class="game-overline">Recent Project</p>
+              <h3 class="game-title"><a href="">tic-tac-toe game</a></h3>
+              <div class="game-description">
+                <p>The game was developed on PyCharm platform using python language Tic-Tac-Toe game is an easy game which is mostly
+                  played among children and it also helps them to improve their concentration, I've made this game when i was new in Python.</p>
+              </div>
+              <ul class="game-skills">
+                <li>Pycharm</li>
+                <li>Python</li>
+              </ul>
+            </div>
+
+          </div>
+          {% comment %} <div class="game-image">
+            <a href="" target=""></a> {% endcomment %}
+            <div class="game-image-wrapper">
+              <div class="color-overlay" style="max-width: 7px; display: block;">
+                <img src="../static/img/tic-tac-toy.png" alt="pic" class="tic-tac-toe-pic">
+              </div>
+            {% comment %} </div>
+
+          </div> {% endcomment %}
+        </li>
+      </ul>
+  </section>
+
+
+  <section id = "contact">
+    <h2 class = "heading"> Contact Me</h2>
+    <h2 class="title-contact">Get In Touch</h2>
+    <p>Although I'm ccurrently looking for any graduate or junior 
+      opportunities, whether you want to approach me for vaccancy or want to give feedback about my website, 
+      I will try my best to reach out to you. </p>
+    <a class="email-link "href="mailto:patelharshil702@gmail.com"> Email Me</a>
+  </section>
+  <div class="footer">
+    <a href="https://github.com/patelharshil1996/portfolio"> Designed & Built by Harshil Patel</a>
+  </div>
+</main>
+    
+   
+
+  
+
+
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+  <script src="{% static 'js/app.js' %}"></script>
+
+
+  <script src="{% static 'js/jquery3.4.1.js' %}"></script>
+</body>
+</html>
