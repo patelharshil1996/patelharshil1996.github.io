@@ -1144,7 +1144,6 @@ div{
 }
 
 .game-image img{
-    position: relative; 
     border-radius: 4px;
     object-fit: cover;
     padding: -30px;
