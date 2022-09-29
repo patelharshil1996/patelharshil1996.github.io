@@ -79,11 +79,13 @@ body{
         overflow: hidden;
         margin-left: 10px;
         transition: .5s ease left;
+        visibility: hidden;
     }
 }
 @media only screen and (max-width:768px){
     #header .nav-list ul.active{
         left: 20%;
+        visibility: visible;
     }
 }
 @media only screen and (max-width:768px){
@@ -120,7 +122,7 @@ body{
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        margin-right: 10px;
+        margin-right: -20px;
         margin-top: 20px;
     }
 
@@ -581,7 +583,7 @@ ul {
     .my-pic{
         margin: 50px auto 0px;
         width: 70%;
-        left: 70px;
+        left: 50px;
     }
 }
 .my-pic::after{
@@ -812,6 +814,7 @@ span i:hover{
 .active-model{
     opacity: 1;
     visibility: visible;
+    /* z-index: -1; */
 }
 
 /* experiences area end */
@@ -880,7 +883,7 @@ span i:hover{
 @media only screen and (max-width:768px){
     .projects-content{
         padding: 0px;
-        margin: 30px;
+        margin: -65px;
         margin-top: 10px;
         margin-right: 60px;
         margin-right: 150px;
@@ -1014,9 +1017,9 @@ div{
 @media only screen and (max-width:768px){
     .gatasby-image-wrapper img{
         padding: 90px;
-        margin-top: 25px;
-        margin-left: -239px;
-        height: 450px;
+        margin-top: 39px;
+        margin-left: -237px;
+        height: 406px;
     }
 }
 /* .gatasby-image-wrapper img::after{
@@ -1106,7 +1109,7 @@ div{
 }@media only screen and (max-width:768px){
     .game-description{
         padding: 0.3px;
-        margin: 360px;
+        margin: 280px;
         margin-left: 5px;
         left: -10px;
         margin-top: 10px;
@@ -1184,10 +1187,10 @@ div{
 
 @media only screen and (max-width:768px){
     .game-image-wrapper img{
-        height: 270px;
+        height: 250px;
         padding: 30px;
-        margin-top: -800px;
-        margin-left: -200px;
+        margin-top: -825px;
+        margin-left: -245px;
         padding-left: -20px;
         margin-right: 200px;
         left: -90px;
